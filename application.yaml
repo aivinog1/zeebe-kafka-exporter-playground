@@ -41,7 +41,7 @@ zeebe:
     exporters:
       kafka:
         className: io.zeebe.exporters.kafka.KafkaExporter
-        jarPath: exporters/zeebe-kafka-exporter-3.0.0-jar-with-dependencies.jar
+        jarPath: exporters/zeebe-kafka-exporter-3.1.0-jar-with-dependencies.jar
         args:
           producer:
             # update this to point to your Kafka brokers
